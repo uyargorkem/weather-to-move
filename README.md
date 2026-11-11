@@ -4,9 +4,20 @@ Weather to Move helps homebuyers understand past weather near a property. This d
 
 ## Run it locally
 
-Use **Node.js 24.x** and npm. Install dependencies and start Vite from the project folder.
+### Install the prerequisites
+
+1. Install **Node.js 24.x LTS** for your operating system. The installer includes npm. [Download Node.js](https://nodejs.org/en/download)
+2. Install **Git** if you need to clone the project. [Install Git](https://git-scm.com/install/)
+
+Open a new terminal and run `node --version`, `npm --version`, and `git --version` to check the installations. The Node.js version should start with `v24.`.
+
+### Clone and start the demo
+
+If you already have a checkout, open its folder in your terminal and start at `npm ci`.
 
 ```sh
+git clone https://github.com/uyargorkem/weather-to-move.git
+cd weather-to-move
 npm ci
 npm run dev
 ```
