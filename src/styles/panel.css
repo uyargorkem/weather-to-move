@@ -1,0 +1,41 @@
+/* Injected into the Rightmove page: component styles + theme only.
+   The Astryx reset is deliberately NOT imported here so it cannot restyle
+   Rightmove's own markup. The Drawer renders in the top layer, so Rightmove's
+   CSS has little reach into it. */
+@import '@astryxdesign/core/astryx.css';
+
+/* Rightmove's page already embeds Effra via @font-face, so the drawer just inherits it. */
+#wtm-root {
+  font-family: Effra, Tahoma, sans-serif;
+  letter-spacing: 0.1px;
+}
+
+.wtm-drawer-logo {
+  display: block;
+  flex: none;
+}
+
+.wtm-mobile-trigger:not([hidden]) {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  margin-block-start: 8px;
+  padding-inline: 12px;
+  border: 1px solid #dedee2;
+  border-radius: 6px;
+  background: #fff;
+  color: #000433;
+  font: inherit;
+  cursor: pointer;
+}
+
+.wtm-mobile-trigger:focus-visible {
+  outline: 2px solid #000433;
+  outline-offset: 2px;
+}
+
+#wtm-root .wtm-dashboard-link:any-link {
+  color: #000433;
+  min-block-size: 44px;
+}

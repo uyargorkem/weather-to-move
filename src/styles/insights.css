@@ -1,0 +1,16 @@
+.wtm-insights {
+  margin: 0;
+  padding-inline-start: 1.25rem;
+  list-style: disc;
+  color: #6c6d7f;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+}
+
+.wtm-insights li + li {
+  margin-block-start: 0.25rem;
+}
+
+.wtm-report-result .wtm-insights {
+  margin-block-start: 0.5rem;
+}

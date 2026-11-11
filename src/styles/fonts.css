@@ -1,0 +1,17 @@
+/* Effra, extracted from the saved Rightmove page for the dashboard. The
+   injected panel doesn't load these: the property page already embeds them.
+   Demo use only — Effra is a commercial Dalton Maag typeface. */
+@font-face {
+  font-family: 'Effra';
+  src: url('/fonts/effra-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Effra';
+  src: url('/fonts/effra-medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

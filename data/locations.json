@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "id": "london",
+    "label": "Central London",
+    "lat": 51.5074,
+    "lon": -0.1278
+  },
+  "properties": [
+    {
+      "id": "95181078",
+      "label": "Magdalen Road, London, SW18",
+      "lat": 51.44623,
+      "lon": -0.17844
+    }
+  ]
+}
